@@ -1,10 +1,11 @@
 export const siteConfig = {
-  name: "សុខ ចិន្ដា (Sok Chenda)",
+  name: "សុខ ចិន្ដា (Sok Chanda)",
   role: "Full-Stack Web Developer",
   tagline: "Passionate about building modern web applications.",
   location: "Cambodia",
-  email: "youremail@example.com", // TODO: Replace with your email
-  github: "https://github.com/your-username", // TODO: Replace with your GitHub
-  linkedin: "https://www.linkedin.com/in/your-linkedin/", // TODO: Replace with your LinkedIn
-  resumeUrl: "/resume.pdf", // TODO: Replace with your resume file in public/
+  email: "sokda106@gmail.com", // TODO: Replace with your email
+  github: "https://github.com/livinda-dev", // TODO: Replace with your GitHub
+  linkedin: "https://www.linkedin.com/in/chanda-sok-9219622b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", // TODO: Replace with your LinkedIn
+  resumeUrl: "/Chanda_Sok_CV.pdf", // TODO: Replace with your resume file in public/
+    profile:"/projects/profile.png"
 };

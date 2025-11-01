@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Container from "../Container";
 import { siteConfig } from "@/data/site";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -56,7 +57,9 @@ export default function Hero() {
             viewport={{ once: true }}
             className="mx-auto aspect-square w-40 overflow-hidden rounded-full border border-zinc-200 bg-gradient-to-br from-zinc-100 to-zinc-200 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 sm:w-48"
             aria-hidden
-          />
+          >
+              <img src={siteConfig.profile} alt="Profile" className="object-cover" />
+          </motion.div>
         </div>
       </Container>
     </section>

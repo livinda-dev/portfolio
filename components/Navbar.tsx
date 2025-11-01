@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:border-white/10 dark:bg-black/50">
       <Container className="flex items-center justify-between py-3">
         <Link href="#home" className="text-base font-semibold tracking-tight">
-          Sok Chenda
+          Sok Chanda
         </Link>
         <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
           {links.map((l) => (
